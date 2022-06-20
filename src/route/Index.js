@@ -12,7 +12,7 @@ const Pages = () => {
     <Suspense fallback={<div />}>
       <Switch>
         {/*HomePage*/}
-        <Route exact path={`${process.env.PUBLIC_URL}/_home`} component={Home}></Route>
+        <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home}></Route>
         <Route component={RedirectAs404}></Route>
       </Switch>
     </Suspense>
