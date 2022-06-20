@@ -19,6 +19,8 @@ const SliderSettings = {
   className: "slider-init plan-list",
   slidesToShow: 3,
   slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
   infinite: true,
   slide: "li",
   arrows: false,
