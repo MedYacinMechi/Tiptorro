@@ -1,0 +1,46 @@
+
+@import "nioicon/nioicon";
+@import "prettify";
+@import "simplebar";
+.simplebar-scroll-content {
+	@extend .simplebar-content-wrapper;
+}
+
+// Include Slick
+@import "slick/slick";
+
+// Include dropzone
+@import "dropzone/dropzone";
+
+// Include DataTable
+@import "dataTable/datatable";
+
+// Include React datatable
+@import "react-datatable/react-datatable";
+
+// Include SweetAlert2
+@import "sweetalert2/sweetalert2";
+
+// Include Quill
+@import "quill/quill";
+
+// Include Tinymce
+@import "tinymce/base";
+
+// Include tagify
+@import "tagify";
+
+// Include nouiSlider
+@import "nouislider/nouislider";
+
+// Include Magnific Popup
+@import "magnific-popup/main";
+
+// Include Jvector-map
+@import "jvector-map/jvector";
+
+// Include React Select
+@import "react-select/react-select";
+
+// Include kanban
+@import "kanban";
