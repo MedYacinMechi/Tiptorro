@@ -46,10 +46,10 @@ const Header = ({ fixed, theme, className, sidebarToggle, setVisibility }) => {
               </li>
               <li
                 className={`nk-menu-item ${
-                  currentUrl === process.env.PUBLIC_URL + "/_home" ? "active current-page" : ""
+                  currentUrl === process.env.PUBLIC_URL + "/" ? "active current-page" : ""
                 }`}
               >
-                <Link to={`${process.env.PUBLIC_URL}/_home`} className="nk-menu-link">
+                <Link to={`${process.env.PUBLIC_URL}/`} className="nk-menu-link">
                   <span className="nk-menu-text">Live Betting</span>
                 </Link>
               </li>
